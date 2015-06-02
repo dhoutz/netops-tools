@@ -1,0 +1,16 @@
+---
+### ------------------------------------------------------
+### show system license
+### ------------------------------------------------------
+
+LicenseTable:
+  rpc: get-license-usage-summary
+  item: feature-summary
+  view: LicenseTableView
+
+LicenseTableView:
+  fields:
+    description: description
+    licensed: licensed
+    needed: needed
+
